@@ -11,8 +11,13 @@
 
     <!--    CSS -->
     <link rel="stylesheet" href="./dist/css/style.css">
+
+    <!--    Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
-<body>
+<body id="beranda">
 <!-- Navbar -->
 <div class="navbar">
     <div class="container">
@@ -21,10 +26,10 @@
                 <h1>Modom.</h1>
             </div>
             <ul class="menu">
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Tentang</a></li>
-                <li><a href="#">Proyek</a></li>
-                <li><a href="#">Kontak</a></li>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
             </ul>
         </div>
     </div>
@@ -36,12 +41,12 @@
     <h1>Proyek Website</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque debitis dolor doloremque dolores earum
         eos, ex exercitationem id itaque laboriosam laborum magni minima nisi officiis quam quasi vero voluptatem.</p>
-    <a href="#">Tentang</a>
+    <a href="#tentang">Tentang</a>
 </div>
 <!--Hero-->
 
 <!-- Tentang -->
-<div class="tentang">
+<div class="tentang" id="tentang">
     <div class="container">
         <div class="tentang-box">
             <div class="box">
@@ -59,7 +64,7 @@
 <!-- Tentang -->
 
 <!--Proyek-->
-<div class="proyek">
+<div class="proyek" id="proyek">
     <div class="container">
         <h1>Proyek Ku</h1>
         <div class="proyek-box">
@@ -100,9 +105,21 @@
         </div>
     </div>
 </div>
-
-
 <!--Proyek-->
+
+<!-- Footer -->
+<footer id="kontak">
+    <p>&copy; Copyright 2025 by <span>MEBIDANG DIGITAL SOLUTION.</span></p>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+</footer>
+
+
+<!-- Footer -->
 
 </body>
 </html>

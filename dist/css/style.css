@@ -228,3 +228,44 @@
 }
 
 /*Proyek*/
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 30px;
+}
+
+footer p span{
+    font-weight: bold;
+}
+
+footer .social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .social a{
+    color: white;
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    footer{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    footer p {
+        order: 2;
+    }
+
+    footer .social{
+        order: 1;
+    }
+}
+/* Footer */
