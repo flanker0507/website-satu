@@ -164,3 +164,29 @@
     }
 }
 /* Tentang */
+
+/*Proyek*/
+.proyek{
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 70px;
+}
+.proyek .container > h1{
+    text-align: center;
+    margin-block: 50px;
+    font-size: 40px;
+}
+.proyek-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.proyek-box img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*Proyek*/
